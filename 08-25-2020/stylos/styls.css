@@ -1,0 +1,40 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(181, 216, 27);
+}
+
+.cambio1{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    
+}
+
+.caja{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+
+}
+
+.miniCaja{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid aqua;
+    cursor: pointer;
+}
+
+.color{
+    background-color: brown;
+}
+.color1{
+    background-color: rgb(228, 163, 163);
+}
+.color2{
+    background-color: rgb(241, 89, 89);
+}
+.color3{
+    background-color: rgb(245, 8, 8);
+}
