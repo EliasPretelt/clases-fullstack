@@ -1,0 +1,57 @@
+@font-face{
+	font-family:'rock';
+    src: url(../fuentes/Kingthings\ Wrote.ttf);
+  }
+  @font-face{
+	font-family:'manchester';
+    src: url(../fuentes/Manchester\ Signature\ ttf.ttf);
+  }
+
+  *{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    background-color: black;
+}
+
+header{
+    background:black;
+    color: oldlace;
+    font-family: manchester;
+    font-size: 100px !important;
+    text-align: right;
+}
+
+#lorem{
+    color: lightcoral;
+    border-color: lightsalmon;
+    border: solid;
+    margin-top: 2px;
+}
+
+.letra>ul>li>a{
+ color: navy !important;
+} 
+
+.bg-primary{
+    background: NAVY #001f3f !important;
+    background: -webkit-linear-gradient(top,NAVY#001f3f 0%, rgba(82,140,163,1) 100%) !important;
+    background: linear-gradient(to bottom, rgba(127,219,255,1) 0%, rgba(82,140,163,1) 100%) !important;
+}
+
+.tama{
+    height: 70px !important;
+}
+
+.boton{
+    background: #001F3F;
+    color: white;
+    border: 1px solid black;
+}
+
+.btn-outline-success:hover{
+    border: 1px solid white;
+    background: #043b72 ;
+}
