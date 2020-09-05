@@ -1,0 +1,85 @@
+@font-face{
+	font-family:'rock';
+    src: url(../fuentes/Kingthings\ Wrote.ttf);
+  }
+  @font-face{
+	font-family:'manchester';
+    src: url(../fuentes/Manchester\ Signature\ ttf.ttf);
+  }
+
+  @font-face{
+	font-family:'slim';
+    src: url(../fuentes/Slim\ Joe.otf);
+  }
+
+  *{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    background-color: whitesmoke;
+}
+
+#bit{
+    background:black;
+    color: whitesmoke;
+    font-family: manchester;
+    font-size: 200px !important;
+    text-align: right;
+}
+
+.letra>ul>li>a{
+ color: navy !important;
+ font-family: slim !important;
+} 
+
+.bg-primary{
+    background: NAVY #001f3f !important;
+    background: -webkit-linear-gradient(top,NAVY#001f3f 0%, rgba(82,140,163,1) 100%) !important;
+    background: linear-gradient(to bottom, rgba(127,219,255,1) 0%, rgba(82,140,163,1) 100%) !important;
+}
+
+.tama{
+    height: 70px !important;
+}
+
+.boton{
+    background: #001F3F;
+    color: white;
+    border: 1px solid black;
+}
+
+.btn-outline-success:hover{
+    border: 1px solid white;
+    background: #043b72 ;
+}
+
+.card-img-top{
+    width: 100px;
+   }
+
+h3{
+    background-color: black;
+    color: white;
+    border: solid white;
+    text-align: center;
+    font-family: slim;
+
+}
+#metalica{
+    margin-top: 10px;
+    padding: 3px;
+    border-color: black;
+    color: black;
+    font-size: 40px;
+}
+#parrafo{
+    text-align-last: justify;
+}
+ #formulario{
+     background-image: url(../img/cantantes/guitarra\ de\ fuego.jpeg);
+     background-position-y: center;
+     font-family: slim;
+     
+  }
